@@ -163,6 +163,6 @@ $(document).ready(function() {
 
 // my
 // Add event listener to the document object
-    // document.addEventListener("contextmenu", (e) => {
-    //   e.preventDefault();
-    // });
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
