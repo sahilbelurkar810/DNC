@@ -125,12 +125,24 @@ a:active {
 .navbar {
   padding: 0;
 }
+.bg-img{
+   background-image: url("/static/img/header_background.jpg");
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Set body height to 100% of the viewport height */
+  /* background-image: url("your-image.jpg"); URL of your background image */
+  background-size: cover; /* Scale the background image to cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  overflow:hidden;
+
+}
 /* DNC */
 .dnc{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 35vh;
 }
 .dncbody{
     width: 150px;
